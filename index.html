@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import mis estilos-->
+    <link type="text/css" rel="stylesheet" href="css/estilos.css"/>
+    <!--Import lightbox-->
+    <link type="text/css" rel="stylesheet"  href="css/lightbox.css" />
+
+    <title>Mi sitio personal</title>
+    
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <!-----------------------------MENU-------------------------------->
+    <nav class="purple">
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="menu1" href="https://github.com/camilabozo/tecnomultimedia">Github</a></li>
+        <li><a class="menu2" href="#footer">Autor</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a class="menu1" href="https://github.com/camilabozo/tecnomultimedia">Github</a></li>
+      <li><a class="menu2" href="#footer">Autor</a></li>
+    </ul>
+      <!---------------CONTENIDO--------------->
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h1>Bienvenidx a mi sitio personal</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class= "col s12">
+          <h6 class="subtitle">Acá vas a poder ver todos mis trabajos realizados en Processing para la materia Tecnología Multimedia I de la carrera Diseño Multimedial en el año 2020</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="purple-text text-deep-purple" href="#tp1">Tp 1</a></li>
+            <li class="tab col s3"><a class="purple-text text-deep-purple" href="#tp2">Tp 2</a></li>
+            <li class="tab col s3"><a class="purple-text text-deep-purple" href="#tp3">Tp 3</a></li>
+            <li class="tab col s3"><a class="purple-text text-deep-purple" href="#tp4">Tp 4</a></li>
+            <li class="tab col s3"><a class="purple-text text-deep-purple" href="#tp5">Tp 5</a></li>
+            <li class="tab col s3"><a class="purple-text text-deep-purple" href="#tpfinal">Tp final</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!--------------------------TRABAJO N1-------------------------------->     
+      <div class="row" id="tp1">
+        <div class="col s6 m6">
+          <a href="img/circulo.png" data-lightbox="circulo" data-title="Círculo Cromático"><img class= "circulo" class="responsive-img" src="img/circulo.png" alt="Circulo Cromatico"></a>
+        </div>
+        <div class="col s12 m6">
+          <h3>Círculo Cromático</h3>
+          <p class="primerTexto">En el primer trabajo práctico de la materia, ya sabíamos dibujar en Processing distintas figuras geométricas y posicionarlas
+            en el lugar que desearamos, ya que podíamos disponer de la posición en X y en Y del canva. La cátedra nos solicitó diseñar y dibujar
+            un círculo cromático, sin más requisitos. Este fue mi resultado. <br>
+            <h6>Podes ver el código de éste trabajo haciendo<a href="https://github.com/camilabozo/tecnomultimedia/blob/tp1/Circulo_Cromaticoentrega/Circulo_Cromaticoentrega.pde"> click acá.</a></h6>
+          </p> 
+        </div>
+      </div>
+
+
+      <!--------------------------TRABAJO N2--------------------------------> 
+      <div id="tp2">
+        <div class="row">
+          <div class="col s12 m12">
+            <h3>Créditos animados</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <a href="img/creditos1.png" data-lightbox="set1" data-title="Créditos"><img class= "responsive-img" src="img/creditos1.png" alt="Creditos"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/creditos2.png" data-lightbox="set1" data-title="Créditos"><img class= "responsive-img" src="img/creditos2.png" alt="Creditos"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/creditos3.png" data-lightbox="set1" data-title="Créditos"><img class= "responsive-img" src="img/creditos3.png" alt="Creditos"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <p class="segundoTexto">Con la utilización de variables, la incorporación de imágenes, librerías de audio y animación, la cátedra nos solicitó
+              la creación de un sketch típico de créditos, como los de películas o juegos... en mi caso emulé los créditos del famoso
+              juego de PlayStation Grand Theft Auto V.<br>
+              <h6>Podes ver el código de éste trabajo haciendo<a href="https://github.com/camilabozo/tecnomultimedia/blob/tp2/tp2.pde"> click acá.</a></h6>
+            </p> 
+          </div>
+        </div>
+      </div>
+    
+
+        <!--------------------------TRABAJO N3--------------------------------> 
+      <div id="tp3" class="row">
+        <div class="col s12">
+          <h3>Aventura Gráfica</h3>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <p class="tercerTexto">En este tercer trabajo, nos acercamos a la creación de una aventura gráfica mediante la utilización
+              de variables, condicionales y funciones. Elegimos una historia, y con ella creamos distintos caminos que el espectador debe elegir
+              para continuar. En mi caso elegí la historia de los Hermanos Hänsel & Gretel, autoría de los hermanos Grimm.
+            </p> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <a href="img/pantalla1.jpg" data-lightbox="set2" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla1.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla2A.jpg" data-lightbox="set2" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla2A.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla2B.jpg" data-lightbox="set2" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla2B.jpg" alt="Historia"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <a href="img/pantalla2C.jpg" data-lightbox="set2" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla2C.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla3.jpg" data-lightbox="set2" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla3.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla4.jpg" data-lightbox="set2" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla4.jpg" alt="Historia"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <h6>Podes ver el código de éste trabajo haciendo<a href="https://github.com/camilabozo/tecnomultimedia/blob/tp3/tp3.pde"> click acá.</a></h6>
+          </div>
+        </div>
+      </div>
+
+
+      <!--------------------------TRABAJO N4--------------------------------> 
+      <div id="tp4">
+        <div class="row">
+          <div class="col s12 m6">
+            <h3>Aventura Gráfica con funciones, arrays y responsive design</h3> 
+          </div>
+          <div class="col s12 m6">
+            <p class="cuartoTexto">En el cuarto trabajo se le dio más importancia a la reutilización de funciones, o sea, encapsular 
+              código que sería de utilidad en distintos lugares de nuestro programa.
+              Reescribimos la aventura gráfica del trabajo práctico anterior, 
+              lo modularizamos, utilizamos funciones, incorporamos arreglos y las funciones map() y 
+              round() para reescalar nuestro programa a cualquier resolución deseada y que cada componente 
+              siga siendo responsivo.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <a href="img/pantalla1a.jpg" data-lightbox="set3" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla1a.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla23.jpg" data-lightbox="set3" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla23.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla3a.jpg" data-lightbox="set3" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla3a.jpg" alt="Historia"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <a href="img/pantalla4a.jpg" data-lightbox="set3" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla4a.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla5a.jpg" data-lightbox="set3" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla5a.jpg" alt="Historia"></a>
+          </div>
+          <div class="col s12 m4">
+            <a href="img/pantalla6a.jpg" data-lightbox="set3" data-title="Aventura Gráfica"><img class= "responsive-img" src="img/pantalla6a.jpg" alt="Historia"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <h6>Podes ver el código de éste trabajo haciendo<a href="https://github.com/camilabozo/tecnomultimedia/tree/tp4"> click acá.</a></h6>
+          </div>
+        </div>
+      </div>
+
+
+      <!--------------------------TRABAJO N5-------------------------------->
+      <div id="tp5">
+        <div class="row">
+          <div class="col s12 m12">
+            <h3>Juego interactivo con Programación Orientada a Objetos</h3>
+            <p class="quintoTexto">Para este trabajo nos amigamos con la Programación Orientada a Objetos. Se nos solicitó crear un juego que funcione
+              de reemplazo para una de las pantallas de nuestra aventura gráfica. Recreé el momento de crisis en el que los hermanos terminan tirando a la bruja
+              malvada dentro del horno, y para cerrar la puerta del mismo, debían embocar la llave dentro de la cerradura, disponiendo solamente de 3 intentos.
+            </p> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <a href="img/juego.png" data-lightbox="set4" data-title="Juego"><img class= "responsive-img" src="img/juego.png" alt="Juego"></a>
+          </div>
+          <div class="col s12 m6">
+            <a href="img/juego2.png" data-lightbox="set4" data-title="Juego"><img class= "responsive-img" src="img/juego2.png" alt="Juego"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <h6>Podes ver el código de éste trabajo haciendo<a href="https://github.com/camilabozo/tecnomultimedia/tree/tp5"> click acá.</a></h6>
+          </div>
+        </div>
+      </div>
+
+
+      <!--------------------------TRABAJO FINAL--------------------------------> 
+      <div id="tpfinal">
+        <div class="row">
+          <div class="col s12 m12">
+            <h3>Aventura Gráfica en Objetos e incorporación del Juego a la aventura</h3>
+            <p class="quintoTexto">Para este trabajo final tuvimos que pasar nuestro tp4 a Objetos e incorporar el juego que creamos en el trabajo anterior a este. <br>
+              A continuación dejo los métodos que considero más importante para la lógica de mi programa final.         
+            </p> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <pre class="clase">
+              <h6 class="clase">Aventura</h6>
+              void dibujate(){
+                background(255);
+                if(this.juego.activo){
+                  aventura.juego.jugar();
+                }else{
+                  if(this.mostrarCreditos){
+                    this.creditos.dibujate();
+                  }else{
+                    this.pantallaActual.dibujate();
+                  }
+                }
+              }
+            </pre>
+          </div>              
+          <div class="col s12 m12">
+            <pre class="clase">
+              <h6 class="clase">Botón</h6>
+              int mouseClicked(){                        
+                if(this.presionado()){
+                  switch(this.num){
+                    case 1: 
+                      aventura.mostrarCreditos = true;
+                      break;
+                    case 17:
+                      aventura.juego.activo = true;
+                    case 26:
+                      aventura.mostrarCreditos = false;
+                      aventura.creditos.texto.reposicionarse();
+                      break;
+                  }
+                  return this.pantallaAIr;
+                }else{
+                  return -1;
+                }
+              }  
+            }
+            </pre>
+          </div>             
+          <div class="col s12 m12" class="white-text text-white">
+            <pre class="clase">
+              <h6 class="clase">Juego</h6>
+              void jugar(){
+                if(!fin){
+                  this.dibujate();
+                  this.cerradura.mover();
+                  if(!this.jugador.disparo){
+                    this.jugador.mover();
+                  }else{
+                    this.jugador.lanzarLlave();
+                    if(this.victoria()){
+                      this.fin = true;
+                    }else if(this.jugador.llave.posY + this.jugador.llave.alto/2 <= 0){
+                      this.contador.decrementar();
+                      this.jugador.reubicar();
+                    }
+                    if(this.contador.intentosRestantes == 0){
+                      this.fin = true;
+                    }
+                  }
+                }else{
+                  this.finalizar();
+                }
+              }
+            </pre>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col s12">
+            <h6>Podes ver el código completo de éste trabajo haciendo<a href="https://github.com/camilabozo/tecnomultimedia/tree/tpfinal"> click acá.</a></h6>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--------------------------FOOTER-------------------------------->          
+
+      <footer id= "footer" class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col m9 s9">
+              <h5 class="white-text">Tecnología Multimedial I</h5>
+              <p class="grey-text text-lighten-4">Camila Ailén Bozo <br> Estudiante de Diseño Multimedial <br> 
+                Legajo: 86441/0<br>Comisión 4</p>
+            </div>      
+            <div class="col s3 m3">
+              <img src="img/camila.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+          </div>
+        </div> 
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright 
+          <p class="grey-text text-lighten-4 right">Tecnologías WEB</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>  <!---DIV CONTAINER-->
+  
+      
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript" src="js/inicia.js"></script>
+
+  
+    
+  </body>
+</html>

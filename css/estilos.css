@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+
+h6{
+    text-align: center; 
+}
+
+h1, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+}
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-style:italic;
+    font-size: 20px;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-style:italic;
+    font-size: 15px;
+}
+
+.clase{
+    background-color: rgb(150, 150, 150);
+}
+
+pre{
+    color: white;
+}
+
+
+li, .menu1, .menu2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    display:flex; 
+    justify-content:center;
+}
+
+.tabs .tab a.active {
+    color:#000;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color: purple;
+} /*Color of underline*/
+
+.circulo{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.primerTexto, .segundoTexto, .tercerTexto, .cuartoTexto, .quintoTexto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.page-footer {
+    background-color:  purple;
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
